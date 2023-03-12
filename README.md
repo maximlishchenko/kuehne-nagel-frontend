@@ -2,9 +2,13 @@ To run the project, navigate to /frontend directory and execute npm start in the
 
 Tech stack:
 React - v18.2.0
+
 npm - v8.1.2
+
 axios - v1.3.4
+
 node - v16.13.2
+
 antd - v5.3.0
 
 Shipments CRUD page:
