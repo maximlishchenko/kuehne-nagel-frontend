@@ -8,6 +8,7 @@ To run the project:
 
 
 ### Tech stack:
+| Technology | Version |
 | ------ | ------ |
 | React | v18.2.0 |
 | npm | v8.1.2 |
