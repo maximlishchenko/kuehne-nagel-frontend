@@ -20,7 +20,7 @@
 Create an HTML Page with relevant Javascript to:
 
 - I decided to use React instead of creating an HTML page with JavaScript because
-  I haven't had much experience with React before and that was a great opportunity to try it out.
+  I haven't had much experience with React before and that was a great opportunity to learn something new.
 
 ✔ - Load shipments data with AJAX from https://my.api.mockaroo.com/shipments.json?key=5e0b62d0
 (Note that that link might get overloaded, so you can also use off line version renaming shipment.txt file)
