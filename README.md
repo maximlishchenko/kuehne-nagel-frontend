@@ -1,10 +1,10 @@
 To run the project:
 
-- Navigate to /kuehne-nagel-frontend directory
+- Navigate to kuehne-nagel-frontend directory
 
-- Execute npm install in the terminal
+- Execute npm install in terminal
 
-- Execute npm start in the terminal
+- Execute npm start in terminal
 
 
 Tech stack:
