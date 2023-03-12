@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+To run the project, navigate to /frontend directory and execute npm start in the terminal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech stack:
+React - v18.2.0
+npm - v8.1.2
+axios - v1.3.4
+node - v16.13.2
+antd - v5.3.0
 
-## Available Scripts
+Shipments CRUD page:
 
-In the project directory, you can run:
+Create an HTML Page with relevant Javascript to:
 
-### `npm start`
+- I decided to use React instead of creating an HTML page with JavaScript because
+  I haven't had much experience with React before and that was a great opportunity to try it out.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔ - Load shipments data with AJAX from https://my.api.mockaroo.com/shipments.json?key=5e0b62d0
+(Note that that link might get overloaded, so you can also use off line version renaming shipment.txt file)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- I used the shipment.txt file as the link indeed got overloaded at times.
 
-### `npm test`
+✔ - Display data in generated table (see attachment ShipmentsTable.png as example)
+✔ - Provide a button in the table to open a panel to visualize details of single row (see attachment ShipmentsDetails.png as example)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TECH:
 
-### `npm run build`
+- You can implement it with vanilla javascript
+  ✔ - More points if you implement it with React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+BENEFICIAL ADDITIONAL POINTS:
+✔ - Use one CSS template (for example get some from here: https://www.creative-tim.com/templates/free)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- I decided to use Ant Design (antd) as it has lots of documentation and examples on the web.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔ - Implement delete button on the table
+✔ - Implement update on Details panel (field values could be changed in the UI)
+✔ - Use Axios
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Use React + Redux
+- Use React + Redux + Thunk middleware
