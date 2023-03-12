@@ -1,11 +1,10 @@
-To run the project:
+### To run the project:
 
 - Navigate to kuehne-nagel-frontend directory
 
 - Execute npm install in terminal
 
 - Execute npm start in terminal
-
 
 ### Tech stack:
 | Technology | Version |
@@ -16,9 +15,7 @@ To run the project:
 | node | v16.13.2 |
 | antd | v5.3.0 |
 
-
-
-Shipments CRUD page:
+### Shipments CRUD page:
 
 Create an HTML Page with relevant Javascript to:
 
